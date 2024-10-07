@@ -19,3 +19,5 @@ command (m for help): press w to save changes
 To mount a partition automatically under /mnt/data make the entry of partition in /etc/fstab file. use following command:
 
 [root@localhost ~]# vim /etc/fstab (add partition entry here)
+
+mount -a -- to confirm 
