@@ -20,4 +20,10 @@ To mount a partition automatically under /mnt/data make the entry of partition i
 
 [root@localhost ~]# vim /etc/fstab (add partition entry here)
 
+
+/dev/sda6       /mnt/data       ext4    defaults        0       0
+
+systemctl daemon-reload
+
+
 mount -a -- to confirm 
